@@ -1,0 +1,165 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  height: 3000px;
+}
+
+/*    Styles Globals */
+
+p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+}
+
+.btn {
+  border: 3px solid #F9C63E;
+  color: #F9C63E;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px 30px;
+
+
+}
+
+
+/*  ===== HEADER ======= */
+
+.header {
+  background-color: #F9C63E;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1; /* sobrepor o conteudo posterior */
+}
+
+.header-menu {
+  text-align: right;
+}
+
+.header-menu ul li{
+  color: #000;
+  display: inline-block;
+  margin-left: 25px;
+  margin-top: 20px;
+}
+
+.header-menu ul li a{
+  text-decoration: none;
+  color: #000;
+  line-height: 20px;
+  padding: 10px 0;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.header-menu ul li a:hover{ 
+  color: #fff;
+}
+
+
+/*  ===== HERO ======= */
+
+.hero {
+  margin-top: 62px;
+  width: 100%;
+  height: 600px;
+  background: url("../images/andhika-soreng-US06QF_sxu8-unsplash.jpg") no-repeat center;
+  background-size: cover;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 48px;
+  color: #fff;
+  text-shadow: 2px 2px #000;
+}
+
+.hero blockquote {
+  max-width: 350px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  color: #fff;
+}
+
+.hero blockquote p:before, .hero blockquote p:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  margin: 10px auto 10px auto;
+}
+
+.hero p {
+  font-size: 18px;
+  font-style: italic;
+  text-shadow: 2px 2px #000;
+}
+
+.hero cite {
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: 2px 2px #000;  
+}
+
+
+/*   CATEGORIES    */
+
+
+.categories {
+  padding: 60px 0;
+}
+
+.categories_list li {
+  background-color: #F9C63E;
+  text-align: center;
+}
+
+.categories_list li h3 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 25px;
+  text-transform: uppercase;
+  letter-spacing:.1em;
+  margin-top: 20px;
+}
+
+.categories_list li h3:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto 10px auto;
+}
+
+.categories_list li p {
+  padding: 10px 20px 20px 20px;
+}
+
+
+.subtitle {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.subtitle:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background-color: #000;
+  margin: 10px auto 10px auto;
+}
+
+.categories_thumbs img {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+}
