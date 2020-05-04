@@ -1,3 +1,5 @@
+## Inrodução ao Git via linha comando.
+
 1. Cria um repositório
 
 2. Adicionar um projeto do GitHub na minha máquina loca
@@ -48,3 +50,9 @@
 Visualizar qual é meu repositório local trackeado com o github.
 
 > git remote -v
+
+### Doc
+
+Explicando sobre git commit semantic
+
+> https://www.conventionalcommits.org/pt-br/v1.0.0-beta.4/
